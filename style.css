@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  color: #333;
+  background-color: #fff;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111;
+  padding: 15px 60px;
+  color: #fff;
+}
+
+header .logo {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #ff6600;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  color: #ff6600;
+}
+
+/* HOME */
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 80px 10%;
+  background-color: #ff6600;
+  color: #fff;
+  flex-wrap: wrap;
+}
+
+.home .content {
+  max-width: 500px;
+}
+
+.home h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.home h2 span {
+  color: #111;
+}
+
+.home h3 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+.home p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.home .buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  background-color: #111;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #111;
+}
+
+.btn.secondary {
+  background: #fff;
+  color: #111;
+}
+
+.btn.secondary:hover {
+  background: #111;
+  color: #fff;
+}
+
+.home .image img {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  object-fit: cover;
+}
+
+/* ABOUT */
+.about {
+  text-align: center;
+  padding: 80px 10%;
+  background: #fff;
+}
+
+.about h2 {
+  font-size: 2em;
+  color: #111;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 1.1em;
+  color: #444;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* CONTACT */
+.contact {
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 80px 10%;
+}
+
+.contact h2 {
+  margin-bottom: 30px;
+  font-size: 2em;
+  color: #ff6600;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.contact button {
+  background: #ff6600;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.contact button:hover {
+  background: #fff;
+  color: #111;
+}
+
+/* FOOTER */
+footer {
+  background: #000;
+  color: #888;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+}
